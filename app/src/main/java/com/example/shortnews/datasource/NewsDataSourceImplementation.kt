@@ -5,7 +5,7 @@ import com.example.shortnews.data.entity.NewsResponse
 import retrofit2.Response
 import javax.inject.Inject
 
-class DataSourceImplementation @Inject constructor(
+class NewsDataSourceImplementation @Inject constructor(
     private val apiService: ApiService
 ) : NewsDataSource {
     override suspend fun getHeadline(country: String): Response<NewsResponse> {
