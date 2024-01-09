@@ -88,6 +88,10 @@ dependencies {
     implementation(Dependencies.moshiConverter)
     implementation(Dependencies.loggingInterceptors)
 
+    //coroutine
+    implementation(Dependencies.coroutineCore)
+    implementation(Dependencies.coroutineAndroid)
+
 
 }
 
