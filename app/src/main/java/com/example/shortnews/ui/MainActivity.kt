@@ -1,4 +1,4 @@
-package com.example.shortnews
+package com.example.shortnews.ui
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
